@@ -1,0 +1,24 @@
+{
+  "name": "rstmpw/pgsql",
+  "description": "PostgreSQL",
+  "keywords": ["posgresql", "postgres", "pgsql", "pdo"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RSTM Team",
+      "email": "team@rstm.pw"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "suggest": {
+    "ext-pgsql": "To actually use this library, you'll have to install pgsql extension"
+  },
+  "autoload": {
+    "psr-4": {
+      "rstmpw\\pgsql\\": "src/"
+    }
+  }
+}
